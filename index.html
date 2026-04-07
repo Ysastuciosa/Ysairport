@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ysairport</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- INÍCIO -->
+        <div id="inicio" class="tela ativa">
+            <img src="Pink Y2k Flower Cute Streetwear Logo.png" class="foto">
+            <div class="botao_cardapio" onclick="mostrarTela(1)"></div>
+        </div>
+
+
+        
+        <!-- CARDÁPIO 1 -->
+        <div id="cardapio1" class="tela">
+    <img src="salgadosysa.png" class="foto">
+    <div class="info1">
+        <ul>
+           <li>Coxinha <span>R$4,00</span></li>
+           <li>Enroladinho <span>R$3,00</span></li>
+           <li>Pastel (2 recheios) <span>R$5,50</span></li>
+           <li>Queijo Quente <span>R$4,20</span></li>
+           <li>Fatia de pizza <span>R$4,50</span></li>
+           <li>Hambúrguer <span>R$7,50</span></li>
+           <li>Macarrão com queijo <span>R$12,50</span></li>
+           <li>Porção de batatas <span>R$8,00</span></li>
+        </ul>
+    </div>
+    <div class="voltar" onclick="voltarInicio()">←</div>
+    <div class="proximo" onclick="mostrarTela(2)">→</div>
+</div>
+
+        <!-- CARDÁPIO 2 -->
+        <div id="cardapio2" class="tela">
+    <img src="docesysa.png" class="foto">
+    <div class="info2">
+        <table class="tabela-estilizada">
+  <tbody>
+    <tr>
+      <td>Bolo de Limão</td>
+      <td class="valor">R$ 4,00</td>
+    </tr>
+    <tr>
+      <td>Sonho</td>
+      <td class="valor">R$ 3,00</td>
+    </tr>
+    <tr>
+      <td>Bolo de pote</td>
+      <td class="valor">R$ 5,50</td>
+    </tr>
+    <tr>
+      <td>Açaí (600ml)</td>
+      <td class="valor">R$ 4,20</td>
+    </tr>
+    <tr>
+      <td>Bolo de Chocolate</td>
+      <td class="valor">R$ 6,00</td>
+    </tr>
+    <tr>
+      <td>Torta - Leite Condensado</td>
+      <td class="valor">R$ 4,50</td>
+    </tr>
+    <tr>
+      <td>Romeu e Julieta</td>
+      <td class="valor">R$ 3,50</td>
+    </tr>
+    <tr>
+      <td>Bolo de Cenoura</td>
+      <td class="valor">R$ 4,00</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    <div class="voltar" onclick="mostrarTela(1)">←</div>
+
+    <div class="proximo" onclick="mostrarTela(3)">→</div>
+</div>
+
+        <!-- CARDÁPIO 3 -->
+        <div id="cardapio3" class="tela">
+            <img src="bebidasysa.png" class="foto">
+            <div class="info3">
+        <table class="tabela-estilizada">
+  <tbody>
+    <tr>
+      <td>Água (sem ou com gás)</td>
+      <td class="valor">R$ 3,00</td>
+    </tr>
+    <tr>
+      <td>Coca-cola</td>
+      <td class="valor">R$ 7,00</td>
+    </tr>
+    <tr>
+      <td>Pepsi</td>
+      <td class="valor">R$ 6,50</td>
+    </tr>
+    <tr>
+      <td>Fanta</td>
+      <td class="valor">R$ 5,20</td>
+    </tr>
+    <tr>
+      <td>Sprite</td>
+      <td class="valor">R$ 4,20</td>
+    </tr>
+    <tr>
+      <td>Sucos</td>
+      <td class="valor">R$ 7,50</td>
+    </tr>
+    <tr>
+      <td>Leite</td>
+      <td class="valor">R$ 4,50</td>
+    </tr>
+    <tr>
+      <td>Café</td>
+      <td class="valor">R$ 5,00</td>
+    </tr>
+    <tr>
+      <td>Chá</td>
+      <td class="valor">R$ 4,00</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+            <div class="voltar" onclick="mostrarTela(2)"></div>
+        </div><div id="cardapio3" class="tela">
+    <img src="salgadosysa.png" class="foto">
+    <div class="voltar" onclick="mostrarTela(2)">←</div>
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
