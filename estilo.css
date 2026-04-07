@@ -1,0 +1,133 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 45%;
+    margin: auto;
+    position: relative;
+}
+
+.foto {
+    width: 100%;
+    display: block;
+}
+
+.tela {
+    display: none;
+}
+
+.ativa {
+    display: block;
+}
+
+/* botão CARDÁPIO inicial */
+.botao_cardapio {
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    width: 180px;
+    height: 70px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.voltar {
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+
+    width: 7%;
+    height: 7%;
+
+    background-color: #ff2f7d;
+    color: white;
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.proximo {
+    position: absolute;
+    bottom: 20px;
+    right: 5%;
+
+    width: 7%;
+    height: 7%;
+
+    background-color: #ff2f7d;
+    color: white;
+
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.5vw;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#cardapio1 img {
+    display: block;
+    width: 100%;
+}
+
+span {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.758);                
+    font-size: 24px;
+    color: #fff;
+}
+
+.info1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+
+    color: #ec297b;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: square;
+}
+
+.info2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:60%;
+    transform: translate(-50%, -50%);
+
+    color: #ec297b;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:60%;
+    transform: translate(-50%, -50%);
+
+    color: #ec297b;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+td.valor {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.758);
+}
